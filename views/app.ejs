@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+		<title>App</title>
+		<link rel="stylesheet" href="css/app.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+   </head>
+   <body>
+	   
+	   	<div>
+			<form align="right" onsubmit="window.location = '/'; return false;">
+				<label style="position:relative;right:10px;top:5px;">
+					<button type="submit" class="btn btn-info btn-sm">
+						<span class="glyphicon glyphicon-log-out"></span> Log out
+					</button>
+				</label>
+			</form>
+		</div>
+
+		<p>Hello <%= user %></p>
+   </body>
+</html>

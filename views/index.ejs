@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Login</title>
+      <link rel="stylesheet" href="css/login.css">
+   </head>
+   <body>
+      <form method="post" action="/app">       
+         <p>
+            <input type="text" name="username" id="username"
+               placeholder="username" required="true"/>
+         </p>
+         <p>
+            <input type="text" name="password" id="password"
+               placeholder="password" required="true"/>
+         </p>
+         <p>
+            <input type="submit" value="Login"/>
+         </p>
+      </form>
+      <br>
+      <p><%= message %></p>
+   </body>
+</html>
